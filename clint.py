@@ -2,7 +2,7 @@ import socket
 import sys
 import os
 
-host = '172.25.18.165'
+host = 'IP_ADDRESS'
 port = 9999
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 s.connect((host,port))
